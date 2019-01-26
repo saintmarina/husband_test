@@ -1,2 +1,2 @@
 flask
-guicorn
+gunicorn==19.9.0
