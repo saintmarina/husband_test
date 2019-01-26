@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+{% block content %}
+<p> Please select one option for every question. Answer the questions as honestly as you can.</p>
+<form class='form' method="post" action='/options'>
+	<p><h5><em>1. How often do you say "I love you"?</em></h5>	
+		<input type="radio" name="How often do you say 'I love you'?" id="q1op1" value="Every time whem I leave or hang up the phone."> Every time when I leave or hang up the phone.<br>
+		<input type="radio" name="How often do you say 'I love you'?" id="q1op2" value="When I'm guilty"> When I'm guilty.<br>
+		<input type="radio"name="How often do you say 'I love you'?" id="q1op3" value="When I want to have sex."> When I want to have sex.<br>
+		<input type="radio" name="How often do you say 'I love you'?" id="q1op4" value="When I feel it."> When I feel it.<br>
+	</p>
+	<p><h5><em>2. Do you consider your wife an equal?</em></h5>
+		<input type="radio" name="Do you consider your wife an equal?" id="q2op1" value="Pretty close."> Pretty close.<br>
+		<input type="radio" name="Do you consider your wife an equal?" id="q2op2" value="Yes."> Yes.<br>
+		<input type="radio"name="Do you consider your wife an equal?" id="q2op3" value="I am superior."> I am superior.<br>
+		<input type="radio" name="Do you consider your wife an equal?" id="q2op4" value="She doesn't conrtibute as much as I do."> She doesn't contribute as much as I do.<br>
+		
+	</p>
+	<p><h5><em>3. Do you flirt with your wife?</em></h5>
+		<input type="radio" name="Do you flirt with your wife?" id="q3op1" value="Always, like teenagers."> Always, like teenagers.<br>
+		<input type="radio" name="Do you flirt with your wife?" id="q3op2" value="Why? I've already got her."> Why? I've already got her.<br>
+		<input type="radio" name="Do you flirt with your wife?" id="q3op3" value="When I want to have sex."> When I want to have sex.<br>
+		<input type="radio" name="Do you flirt with your wife?" id="q3op4" value="We are not kids anymore!"> We are not kids anymore!<br>
+	</p>
+	<p><h5><em>4. Do you try to be uderstanding?</em></h5>
+		<input type="radio" name="Do you try to be understanding?" id="q4op1" value="Yes, all the time."> Yes, all the time.<br>
+		<input type="radio" name="Do you try to be understanding?" id="q4op2" value="Sometimes I don't try too hard."> Sometimes I don't try too hard.<br>
+		<input type="radio" name="Do you try to be understanding?" id="q4op3" value="I'm working on it."> I'm working on it.<br>
+		<input type="radio" name="Do you try to be understanding?" id="q4op4" value="My wife doen't want to be understood."> My wife doesn't want to be understood.<br>
+	</p>
+	<p><h5><em>5. Do you compliment your wife?</em></h5>
+		<input type="radio" name="Do you compliment your wife?" id="q5op1" value="For what?"> For what?<br>
+		<input type="radio" name="Do you compliment your wife?" id="q5op2" value="Every day."> Every day.<br>
+		<input type="radio" name="Do you compliment your wife?" id="q5op3" value="Not, when she doesn't deserve it."> Not, when she doesn't deserve it.<br>
+		<input type="radio" name="Do you compliment your wife?" id="q5op4" value="Only when I mean it."> Only when I mean it.<br>
+	</p>
+	<p><h5><em>6. Do your protect your wife?</em></h5>
+		<input type="radio" name="Do your protect your wife?" id="q6op1" value="With everything I have."> With everything I have.<br>
+		<input type="radio"name="Do your protect your wife?" id="q6op2" value="If she’s in danger I would."> If she’s in danger I would.<br>
+		<input type="radio"name="Do your protect your wife?" id="q6op3" value="Have to. It’s my job."> Have to. It’s my job.<br>
+	</p>
+	<p><h5><em>7. Do you admit when you're wrong?</em></h5>
+		<input type="radio" name="Do you admit when you're wrong?" id="q7op1" value="I am not usually wrong."> I am not usually wrong.<br>
+		<input type="radio" name="Do you admit when you're wrong?" id="q7op2" value="Depends on the situation."> Depends on the situation.<br>
+		<input type="radio" name="Do you admit when you're wrong?" id="q7op3" value="If I'm wrong, I do admit it."> If I'm wrong, I do admit it.<br>
+	</p>
+	<p><h5><em>8. Are you honest?</em></h5>
+		<input type="radio" name="Are you honest?" id="q8op1" value="Try to be."> Try to be.<br>
+		<input type="radio" name="Are you honest?" id="q8op2" value="Always."> Always.<br>
+		<input type="radio" name="Are you honest?" id="q8op3" value="Wouldn't say that."> Wouldn't say that.<br>
+	</p>
+	<p><h5><em>9. Do you ask your wife for advise?</em></h5>
+		<input type="radio" name="Do you ask your wife for advise?" id="q9op1" value="If I think she can add value." > If I think she can add value.<br>
+		<input type="radio" name="Do you ask your wife for advise?" id="q9op2" value="Of course, she is so smart."> Of course, she is so smart.<br>
+		<input type="radio" name="Do you ask your wife for advise?" id="q9op3" value="She doesn’t understand anything I say."> She doesn’t understand anything I say.<br>
+	</p>
+	<p><h5><em>10. Are you loyal?</em></h5>
+		<input type="radio" name="Are you loyal?" id="q10op1" value="Yes."> Yes.<br>
+		<input type="radio" name="Are you loyal?" id="q10op2" value="For the most part."> For the most part.<br>
+		<input type="radio"name="Are you loyal?" id="q10op3" value="No."> No.<br>
+	</p>
+	<p><h5><em>11. Do you worry about your wife?</em></h5>
+		<input type="radio" name="Do you worry about your wife?" id="q11op1" value="I think about her all the time." > I think about her all the time.<br>
+		<input type="radio"name="Do you worry about your wife?" id="q11op2" value="If I think there is something to worry about."> If I think there is something to worry about.<br>
+		<input type="radio"> Not really, she can deal with everything herself.<br>
+	</p>
+	<p><h5><em>12. Would you ever put down your wife’s cooking?</em></h5>
+		<input type="radio" name="Would you ever put down your wife’s cooking?" id="q12op1" value="I will tell her if something is a little off in a nice way."> I will tell her if something is a little off in a nice way.<br>
+		<input type="radio" name="Would you ever put down your wife’s cooking?" id="q12op2" value="I'll tell her all the time if something is terrible."> I tell her all the time, if something is terrible.<br>
+		<input type="radio"name="Would you ever put down your wife’s cooking?" id="q12op3" value="Never!"> Never!<br>
+	</p>
+	<p><h5><em>13. Do you teach your wife new things?</em></h5>
+		<input type="radio" name="Do you teach your wife new things?" id="q13op1" value="I love teaching her and watching her learn."> I love teaching her and watching her learn.<br>
+		<input type="radio" name="Do you teach your wife new things?" id="q13op2" value="She never wants to learn anything from me."> She never wants to learn anything from me.<br>
+		<input type="radio" name="Do you teach your wife new things?" id="q13op3" value="She cries when I teach her."> She cries when I teach her.<br>
+		<input type="radio" name="Do you teach your wife new things?" id="q13op4" value="If she’s interested in it."> If she’s interested in it.<br>
+	</p>
+	<p><h5><em>14. Can you take care of housework?</em></h5>
+		<input type="radio" name="Can you take care of housework?" id="14op1" value="I have my own list to do."> I have my own sh*t to do.<br>
+		<input type="radio" name="Can you take care of housework?" id="14op2" value="If I get instructions"> If I get instructions.<br>
+		<input type="radio" name="Can you take care of housework?" id="q14op3" value="Here and there."> Here and there.<br>
+		<input type="radio" name="Can you take care of housework?" id="q14op4" value="I am a hostage and she holds me as her slave."> I am a hostage and she holds me as her slave.<br>
+	</p>
+	<p><h5><em>15. Do you tell your wife how to ride her motorcycle?</em></h5>
+		<input type="radio" name="Do you tell your wife how to ride her morotcycle?" id="q15op1" value="I try not to."> I try not to.<br>
+		<input type="radio" name="Do you tell your wife how to ride her morotcycle?" id="q15op2" value="Yes, all the time! Who taught her driving?"> Yes, all the time! Who taught her driving?<br>
+		<input type="radio" name="Do you tell your wife how to ride her morotcycle?" id="q15op3" value="Never!"> Never!<br>
+		<input type="radio" name="Do you tell your wife how to ride her morotcycle?" id="q15op4" value="Only when I notice some dangerous habits in her driving."> Only when I notice some dangerous habits in her driving.<br>
+	</p>
+	<p><h5><em>16. Can you be selfish?</em></h5>
+		<input type="radio" name="Can you be selfish?" id="q16op1" value="I try not to be."> I try not to be.<br>
+		<input type="radio" name="Can you be selfish?" id="q16op2" value="I am all the time"> I am all the time.<br>
+		<input type="radio" name="Can you be selfish?" id="q16op3" value="I'm very selfless"> I’m very selfless.<br>
+	</p>
+	<p><h5><em>17. Do you think you’re supportive?</em></h5>
+		<input type="radio" name="Do you think you’re supportive?" id="q17op1" value="I support my wife in everything she does."> I support my wife in everything she does.<br>
+		<input type="radio" name="Do you think you’re supportive?" id="q17op2" value="No."> No.<br>
+		<input type="radio"> If I have to be.<br>
+		<input type="radio" name="Do you think you’re supportive?" id="q17op3" value="If I agree with the situation."> If I agree with the situation.<br>
+	</p>
+	<p><h5><em>18. Do you surprise your wife?</em></h5>
+		<input type="radio" name="Do you surprise your wife?" id="q18op1" value="At least once a week!"> At least once a week!<br>
+		<input type="radio" name="Do you surprise your wife?" id="q18op2" value="Probably monthly."> Probably monthly.<br>
+		<input type="radio"  name="Do you surprise your wife?" id="q18op3" value="For what?"> For what?<br>
+		<input type="radio" name="Do you surprise your wife?" id="q18op3" value="Maybe for her birthday or something."> Maybe for her birthday or something.<br>
+	</p>
+	<p><h5><em>19. How big is your porn collection?</em></h5>
+		<input type="radio" name="How big is your porn collection?" id="q19op1" value="I have a few things hidden away."> I have a few things hidden away.<br>
+		<input type="radio" name="How big is your porn collection?" id="q19op2" value="I don't have one."> I don’t have one.<br>
+		<input type="radio" name="How big is your porn collection?" id="q19op3" value="I don't need one."> I don't need one.<br>
+		<input type="radio" name="How big is your porn collection?" id="q19op4" value="I have some, but I usually don't warch it alone."> I have some, but I usually don't watch it alone.<br>
+	</p>
+	<p><h5><em>20. Do you try to make your wife laugh?</em></h5>
+		<input type="radio" name="Do you try to make your wife laugh?" id="q20op1" value="Once in a while."> Once in a while.<br>
+		<input type="radio" name="Do you try to make your wife laugh?" id="q20op2" value="If she laughs, she laughs. I don't put extra effort in it."> If she laughs, she laughs. I don’t put extra effort in it.<br>
+		<input type="radio" name="Do you try to make your wife laugh?" id="q20op3" value="I don't really care if she thinks I'm funny."> I don’t really care if she thinks I’m funny.<br>
+		<input type="radio" name="Do you try to make your wife laugh?" id="q20op1" value="I love seeing her smile. I try to make her laugh all the time."> I love seeing her smile. I try to make her laugh all the time.<br>
+	</p>
+	<p><h5><em>21. Do you hold hands?</em></h5>
+		<input type="radio" name="Do you hold hands?" id="q21op1" value="Everywhere we go."> Everywhere we go.<br>
+		<input type="radio" name="Do you hold hands?" id="q21op2" value="Not very often."> Not very often. <br>
+		<input type="radio" name="Do you hold hands?" id="q21op3" value="It's for teenagers."> It’s for teenagers.<br>
+	</p>
+	<p><h5><em>22. Do you like spending time with your wife?</em></h5>
+		<input type="radio" name="Do you like spending time with your wife?" id="q22op1" value="As much as I can." > As much as I can.<br> 
+		<input type="radio" ame="Do you like spending time with your wife?" id="q22op2" value="If there is nothing else going on."> If there is nothing else going on.<br>
+		<input type="radio" ame="Do you like spending time with your wife?" id="q22op3" value="Not really."> Not really.<br>
+		<input type="radio" ame="Do you like spending time with your wife?" id="q22op4" value="We enjoy our time togerher."> We enjoy our time together.<br>
+	</p>
+	<p><h5><em>23. Are you constantly talking to your friends about your wife and how great your life with her is?</em></h5>
+		<input type="radio" name="Are you constantly talking to your friends about your wife and how great your life with her is?" id="q23op1" value="Quite a bit."> Quite a bit.<br>
+		<input type="radio" name="Are you constantly talking to your friends about your wife and how great your life with her is?" id="q23op2" value="If it’s relevant to the conversation."> If it’s relevant to the conversation.<br>
+		<input type="radio" name="Are you constantly talking to your friends about your wife and how great your life with her is?" id="q23op3" value="No."> No.<br>		
+		<input type="radio" name="Are you constantly talking to your friends about your wife and how great your life with her is?" id="q23op4" value="They are way more interesting."> They are way more interesting.<br>
+	</p>
+	<p><h5><em>24. Do you take your wife on dates?</em></h5>
+		<input type="radio" name="Do you take your wife on dates?" id="q24op1" value="Once a week."> Once a week.<br>
+		<input type="radio" name="Do you take your wife on dates?" id="q24op2" value="We have monthly dates."> We have monthly dates.<br>
+		<input type="radio" name="Do you take your wife on dates?" id="q24op3" value="Why would I do that? We are already married."> Why would I do that? We are already married.<br>
+		<input type="radio" name="Do you take your wife on dates?" id="q24op4" value="Special occasions."> Special occasions.<br>
+		<input type="radio" name="Do you take your wife on dates?" id="q24op5" value="Oh God, NO! Everything is very expensive, we need to save money for the future."> Oh God, NO! Everything is very expensive, we need to save money for the future.<br>
+	</p>
+	<p><h5><em>25. Do you communicate well?</em></h5>
+		<input type="radio" name="Do you communicate well?" id="q25op1" value="I don’t like talking."> I don’t like talking.<br>
+		<input type="radio" name="Do you communicate well?" id="q25op1" value="About most things."> About most things.<br>
+		<input type="radio" name="Do you communicate well?" id="q25op1" value="We have great communication. Of course there is space for improvement."> We have great communication. Of course there is space for improvement.<br>
+		<input type="radio" name="Do you communicate well?" id="q25op1" value="She doesn't understand me."> She doesn't understand me.<br><br>
+
+		<button type="submit" class="btn btn-danger"> Submit</button>
+
+	</p>
+</form>
+
+
+
+{% endblock %}

@@ -1,0 +1,55 @@
+.container {
+	text-align: center;
+}
+.main {
+	margin-bottom: 0;
+}
+.footer {
+width: 100%;
+text-align: center;
+padding: .75em;
+}
+.footer p {
+ 	padding: 10px;
+ 	background-color: #efefef;
+}
+.nav a  {
+	cursor: pointer;
+
+}
+.nav a:hover  {
+	text-decoration: underline;
+}
+.explanation {
+	background-color: #efefef;
+}
+
+.form {
+	text-align: left;
+}
+#link {
+	font-family: ChunkFiveRegular, Georgia, serif;
+	padding-top: 1.5rem;
+	margin-top: 8px;
+	background-color: #dc3545;
+	width:180px;
+	height:80px;
+	color:white;
+}
+.happy {
+	color: #dc3545;
+	font-family: ChunkFiveRegular, Georgia, serif;
+}
+.f {
+	color: red;
+	font-style: itali
+}
+footer a {
+	color: red;
+}
+h2 {
+	font-family: ChunkFiveRegular, Georgia, serif;
+}
+a.nav-linkw {
+	float: right;
+}

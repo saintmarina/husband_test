@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class='explanation'>
+<p class="main"><h2>Test: What kind of husband are you?</h2><br />Discover how good you are doing as a husband, by answering the following questions as honestly as possible! This test will also give you a detailed description of your weaker points you might want to improve. This test is not based on any scientific study whatsoever.<br /><br />by <a class="f" href="/about_us">HappyHouse Inc.</a></p>
+</div>
+<img id="love_photo" src='/static/love_photo.jpg' class="img-fluid" alt="A picture of us." class="rounded"/>
+<br />
+<br />
+<form method="get" action="/test">
+<button type="submit" class="btn btn-danger">Start test</button>
+</form>
+<br />	
+<br />	
+{% endblock %}
