@@ -1,0 +1,1 @@
+web: FLASK_APP=husband_test.py flask run -p $PORT
